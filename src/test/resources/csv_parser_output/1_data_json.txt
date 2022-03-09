@@ -1,0 +1,19 @@
+{
+  "record" : [ {
+    "fieldName" : "name",
+    "value" : "Josephine",
+    "datatypes" : [ "STRING" ]
+  }, {
+    "fieldName" : "email",
+    "value" : "osephine_darakjy@darakjy.org",
+    "datatypes" : [ "STRING", "EMAIL" ]
+  }, {
+    "fieldName" : "phone",
+    "value" : "810-374-9840",
+    "datatypes" : [ "NUMBER", "PHONE_NUMBER" ]
+  }, {
+    "fieldName" : "zip",
+    "value" : "48116",
+    "datatypes" : [ "NUMBER" ]
+  } ]
+}
