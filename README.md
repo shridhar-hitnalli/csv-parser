@@ -6,8 +6,7 @@ CSV-Parser REST API
 * Micronaut 3.3.4 - The web framework used
 * Lombok - Lombok is used to reduce boilerplate code for model/data objects,
 * Maven 3.x - Dependency Management
-* Docker - containerize the application
-
+* 
 ## Steps to run the application
 
 **1. Clone the repository**
