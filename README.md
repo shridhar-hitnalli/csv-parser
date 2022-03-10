@@ -59,19 +59,19 @@ For the above request the output file will be created at```<code-repository-loca
   "record" : [ {
     "fieldName" : "name",
     "value" : "Josephine",
-    "datatypes" : [ "STRING" ]
+    "datatype" : "STRING"
   }, {
     "fieldName" : "email",
     "value" : "osephine_darakjy@darakjy.org",
-    "datatypes" : [ "EMAIL" ]
+    "datatype" : "EMAIL"
   }, {
     "fieldName" : "phone",
     "value" : "810-374-9840",
-    "datatypes" : [ "PHONE_NUMBER" ]
+    "datatype" : "PHONE_NUMBER"
   }, {
     "fieldName" : "zip",
     "value" : "48116",
-    "datatypes" : [ "NUMBER" ]
+    "datatype" : "NUMBER"
   } ]
 }
 

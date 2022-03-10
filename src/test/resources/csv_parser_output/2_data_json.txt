@@ -2,18 +2,18 @@
   "record" : [ {
     "fieldName" : "name",
     "value" : "John",
-    "datatypes" : [ "STRING" ]
+    "datatype" : "STRING"
   }, {
     "fieldName" : "email",
     "value" : "john.matin@gmail.com",
-    "datatypes" : [ "EMAIL" ]
+    "datatype" : "EMAIL"
   }, {
     "fieldName" : "phone",
     "value" : "810-292-9388",
-    "datatypes" : [ "PHONE_NUMBER" ]
+    "datatype" : "PHONE_NUMBER"
   }, {
     "fieldName" : "zip",
     "value" : "48112",
-    "datatypes" : [ "NUMBER" ]
+    "datatype" : "NUMBER"
   } ]
 }

@@ -1,9 +1,7 @@
 package com.codapay.csvparser.enums;
 
 import java.util.Arrays;
-import java.util.List;
 import java.util.regex.Pattern;
-import java.util.stream.Collectors;
 
 public enum Datatype {
     STRING("^[a-zA-Z]*$"),
@@ -21,9 +19,9 @@ public enum Datatype {
         this.regEx = regEx;
     }
 
-    public static List<Datatype> getTypeOfField(String str) {
+    public static Datatype getTypeOfField(String str) {
         return Arrays.stream(Datatype.values())
             .filter(dt -> Pattern.compile(dt.getRegEx())
-                    .matcher(str).matches()).collect(Collectors.toList());
+                    .matcher(str).matches()).findFirst().orElse(STRING);
     }
 }

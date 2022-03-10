@@ -8,7 +8,6 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
-import java.util.List;
 
 @Data
 @Builder
@@ -23,6 +22,6 @@ public class Field implements Serializable {
 
     private String value;
 
-    private List<Datatype> datatypes;
+    private Datatype datatype;
 
 }
