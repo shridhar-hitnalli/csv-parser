@@ -32,8 +32,8 @@ The app defines following API.
 ### CSV-Parser
 
 | Method | Url             | Decription                                                                               | Sample Valid Request Body | Sample Valid Output file |
-|--------|-----------------|------------------------------------------------------------------------------------------|---------------------------|------------------------- |
-| POST   | /api/csv-parser | Reads the csv file at the given path and <br/>generate output text file in a json format | [JSON](#jsoncreate)       | [1_data_json.txt](#jsonoutput)      |
+|--------|-----------------    | ------------------------------------------------------------------------------------------|---------------------------|------------------------- |
+| POST   | /api/csv-parser          | Reads the csv file at the given path and <br/>generate output text file in a json format | [JSON](#jsoncreate)       | [1_data_json.txt](#jsonoutput)      |
 
 
 Test it using postman or any other rest client.
