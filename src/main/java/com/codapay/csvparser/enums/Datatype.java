@@ -6,8 +6,8 @@ import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
 public enum Datatype {
-    STRING("\\D+"),
-    NUMBER("[0-9\\.\\-\\s+\\/()]+"),
+    STRING("^[a-zA-Z]*$"),
+    NUMBER("[0-9]+"),
     EMAIL("^(?=.{1,64}@)[A-Za-z0-9_-]+(\\.[A-Za-z0-9_-]+)*@[^-][A-Za-z0-9-]+(\\.[A-Za-z0-9-]+)*(\\.[A-Za-z]{2,})$"),
     PHONE_NUMBER("^(\\+\\d{1,3}( )?)?((\\(\\d{1,3}\\))|\\d{1,3})[- .]?\\d{3,4}[- .]?\\d{4}$");
 

@@ -123,8 +123,8 @@ public class CSVParserServiceTest {
 
     @SneakyThrows
     @Test
-    @DisplayName("given csv file with spaces around the data, when create a json file, then location of the json file is returned")
-    void givenFileWithHeaders_whenCreateJsonFile_ThenOutputFileLocationReturned() {
+    @DisplayName("given csv file with invalid commas around the data, when create a json file, then exception is thrown")
+    void givenFileWithInvalidCommas_whenCreateJsonFile_ThenThrowException() {
         //given
         CSVParserRequest csvParserRequest = CSVParserRequest.builder().path(CSV_INVALID_COMMAS_PATH).build();
 

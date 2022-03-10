@@ -6,11 +6,11 @@
   }, {
     "fieldName" : "email",
     "value" : "john.matin@gmail.com",
-    "datatypes" : [ "STRING", "EMAIL" ]
+    "datatypes" : [ "EMAIL" ]
   }, {
     "fieldName" : "phone",
     "value" : "810-292-9388",
-    "datatypes" : [ "NUMBER", "PHONE_NUMBER" ]
+    "datatypes" : [ "PHONE_NUMBER" ]
   }, {
     "fieldName" : "zip",
     "value" : "48112",
