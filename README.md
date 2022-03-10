@@ -52,7 +52,10 @@ The API will create a text file in a json format inside a directory ```/src/test
 ```
 
 ## Sample Valid text file format
-For the above request the output file will be created at```<code-repository-location>/csv-parser/src/test/resources/csv_parser_output/1_data_json.txt```
+For the above request the output file will be created at
+```
+<code-repository-location>/csv-parser/src/test/resources/csv_parser_output/1_data_json.txt
+```
 ##### <a id="jsonoutput"> Output > 1_data_json.txt</a>
 ```json
 {
